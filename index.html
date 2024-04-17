@@ -11,12 +11,18 @@
   <body>
     <header>
         <h1> Meeting title: Mario Kart's Best Racer</h1>  
-        <!-- add navigation links here -->
+        <!-- add navigation links here (maybe instead - add other pages) -->
+        <nav class="Extra-Resources">
+          <ul>
+            <li><a href="https://screenrant.com/best-racer-kart-combinations-mario-kart-8/"> Best Racer Kart Combination</a></li>
+            <li><a href="https://www.polygon.com/mario-kart-8-deluxe-guide/2017/5/9/15593724/shortcuts"> Mario Kart 8 Deluxe Map Shortcuts</a></li>
+          </ul>
+        </nav>
         <hr>
     </header>
 
     <main>
-        <h5> Date and Time: 04/12/2024 </h5>
+        <h5> Date and Time: 04/12/2024  8-10pm </h5>
         <h5> Location: Moo Moo Meadows </h5>
 
         <section>
@@ -60,8 +66,20 @@
             <li>
               <details>
                 <summary> Characters Analysis and Performance </summary>
-                <p> Different characters have different weight classes (light, medium, heavy). Thus, they require specific 
-                  kart setups to reach optimal performances. What are the strenghts and weaknesses of the different characters?
+                <p> Different characters have different weight classes <i>(light, medium, heavy)</i>. Thus, they require specific 
+                  kart setups to reach <b class= "term"> optimal performances </b>. What are the <b class = "term">strengths</b> and 
+                  <b class="term"> weaknesses </b> of the different characters?
+
+                  According to <a href="https://screenrant.com/best-characters-play-mario-kart-8-ranked/#:~:text=All%20Mario%20Kart%208%20characters,but%20have%20lower%20top%20speeds.">
+                  this link</a>: <br>
+                  
+              
+                  <strong>"All Mario Kart 8 characters are placed on a weight spectrum indicative of their size: Light, Medium, and Heavy. 
+                  The heavier characters are favored due to their ability to maintain top speeds, but are slower to accelerate. Lighter characters 
+                  accelerate more quickly, but have lower top speeds."
+                  </strong>
+              
+
                 </p>
               </details>
             </li>
@@ -74,7 +92,7 @@
                   <span> <a href="https://towardsdatascience.com/the-best-mario-kart-8-character-according-to-data-science-d300dd7a645a">
                     The Best Mario Kart 8 Characters </a>. </span>
                   The analysis does not involve every single character but includes those from each weight class at least!
-                  Characters can be categorized as light, medium, or heavy.
+                  Characters can be categorized as <i>light, medium, or heavy</i>.
                   More information regarding the analysis can be read from the link.
                   <img src = "kart_analysis.png">
 
@@ -86,12 +104,15 @@
               <details>
                 <summary> Track Strategies and Selection </summary>
                 <p>
-                  There are many maps in Mario Kart and a lot of strategy/shortcuts that should be taken into account. 
+                  There are many maps in Mario Kart and a lot of <em>strategy/shortcuts</em> that should be taken into account. 
                   In addition, there are abilities and speedboost that should be considered as well. Not only optimal kart
                   performance is necessary but strategy is also key to winnning a race. 
                   <video controls> 
                     <source src = "clip.mp4" type= "video/mp4">
                   </video>
+                  <audio controls>
+                    <source src = "clip.mp4" type= "audio/mpeg">
+                  </audio>
                 </p>
 
               </details>
@@ -102,9 +123,114 @@
         
     </main>
 
+    <!--text area -->
+    <form>
+      <label for = "random"> questions/thoughts/concerns : </label>
+      <textarea id= "random" name ="random" rows="5" cols="33">
+      type here...
+      </textarea>
+    </form>
+
 
     <footer>
       <p>meeting minutes by <span> Hailani Lam </span> </p>
     </footer>
+
+    <hr>
+
+    <input type="date" value="2024-04-16" />
+    
+    <hr>
+
+    <!-- input(text) -->
+    <form>
+      <label for = "name"> name: </label>
+      <input type = "text" id = "name" name = "name">
+    </form>
+
+    <!-- input(checkbox) + fieldset -->
+    <fieldset>
+      <legend> choose your favority power-ups (can be multiples)</legend>
+
+      <div>
+        <input type ="checkbox" id="mushroom" name = "mushroom" >
+        <label for ="mushroom"> mushroom </label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="blue shell" name="blueshell">
+        <label for = "blue shell">blue shell </label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="banana split" name= "banana split">
+        <label for = "banana split">banana split</label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="red shell" name="red shell">
+        <label for="red shell"> red shell </label>
+      </div>
+    </fieldset>
+
+    <hr>
+
+    <!--input(radio)-->
+    <form>
+      <fieldset>
+        <legend> please select your cc(cubic centimeters) or engine class :</legend>
+
+        <div>
+          <input type="radio" id="cc-choice1" name="cc" value="50cc" />
+          <label for="cc-choice1">50cc</label>
+        </div>
+
+        <div>
+          <input type="radio" id="cc-choice2" name="cc" value="100cc" />
+          <label for="cc-choice2">100cc</label>
+        </div>
+
+        <div>
+          <input type="radio" id="cc-choice3" name="cc" value="150cc" />
+          <label for="cc-choice3">150cc</label>
+        </div>
+
+        <div>
+          <input type="radio" id="cc-choice4" name="cc" value="200cc" />
+          <label for="cc-choice4">200cc</label>
+        </div>
+        
+      </fieldset>
+    </form>
+
+    <hr>
+
+
+    <!-- data list-->
+    <label for="map-choice">choose a map:</label>
+    <input list = "maps" id="map-choice" name="map-choice">
+    <datalist id = "maps">
+      <option value = "moo moo meadows"></option>
+      <option value = "rainbow road"></option>
+      <option value = "water park"></option>
+      <option value = "animal crossing"></option>
+    </datalist>
+
+    <hr>
+
+    <!--select/option-->
+    <select id = "character-select">
+      <option value""> --choose ur fav mario kart character--
+      </option>
+      <option value "mario"> mario </option>
+      <option value "luigi"> luigi </option>
+      <option value "yoshi"> yoshi </option>
+      <option value "toad"> toad </option>
+    </select>
+
+    <hr>
+    
+    <!-- button -->
+    <button type = "button"> don't push me </button>
   </body>
 </html>
