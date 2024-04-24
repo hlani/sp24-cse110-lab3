@@ -132,6 +132,20 @@ video{
     position: static;
 }
 
+@media (max-width: 768px) {
+    img {
+        max-width: 100%;
+        height: auto;
+        position: sticky;
+    }
+
+    video {
+        max-width: 100%;
+        height: auto;
+        position: static;
+    }
+}
+
 button{
     color:red;
 }
