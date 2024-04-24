@@ -75,11 +75,12 @@ p {
 
 }
 
+
 #Topics{
     display: grid;
-    grid-auto-rows: auto;
-    gap: 5px;
-
+    grid-template-columns: 1fr; /* Single column layout for mobile */
+    gap: 10px; /* Space between grid items */
+    padding: 10px;
 }
 
 footer{
