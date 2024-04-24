@@ -52,14 +52,22 @@ textarea {
 }
 
 label {
+    display: inline;
     text-decoration: underline;
     padding-bottom: 10%;
 
 }
 
+/*changes the color of text */
 p {
     color: brown;
     background-color: white;
-
 }
 
+fieldset{
+    display: flex;
+}
+
+footer{
+    text-align: center;
+}
