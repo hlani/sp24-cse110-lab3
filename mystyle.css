@@ -93,16 +93,20 @@ footer{
 }
 
 img{
+    /*
     width: auto;
     height: 4in;
     overflow-x: auto;
     position: sticky;
+    */
+    max-width: 100%;
+    height: auto;
+    position: sticky;
 }
 
 video{
-    width: auto;
-    height:4in;
-    overflow-x: auto;
+    max-width: auto;
+    height:auto;
     position: relative;
 }
 
