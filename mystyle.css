@@ -1,5 +1,9 @@
+:root{
+    --main-bg-color: hsla(9, 100%, 64%, 0.6);
+}
+
 body {
-    background-color: hsla(9, 100%, 64%, 0.6);
+    background-color: var(--main-bg-color)
 }
 
 .color-display-p3 {
@@ -9,3 +13,20 @@ body {
 #mixcolor{
     background-color: color-mix(in srgb, #34c9eb 25%, white);
 }
+
+h1 {
+    font-size: 5em;
+    margin-left: 5%;
+    margin-right: 5%; 
+    padding: 2vh; 
+}
+
+#Attendees {
+    padding: 5mm; 
+    font-size: 20px;
+    background: burlywood;
+    margin-top: 0.5cm;
+}
+
+
+
