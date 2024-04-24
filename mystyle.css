@@ -82,6 +82,19 @@ p {
     gap: 10px; /* Space between grid items */
     padding: 10px;
 }
+@media (min-width: 768px) {
+    /* Two columns for tablet and larger devices */
+    #Topics {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1024px) {
+    /* Three columns for desktops */
+    #Topics {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
 
 footer{
     text-align: center;
@@ -89,14 +102,14 @@ footer{
 
 img{
     width: auto;
-    height: 60%;
+    height: 4in;
     overflow-x: auto;
     position: sticky;
 }
 
 video{
     width: auto;
-    height:60%;
+    height:4in;
     overflow-x: auto;
     position: relative;
 }
