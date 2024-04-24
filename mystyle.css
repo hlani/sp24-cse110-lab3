@@ -89,13 +89,15 @@ footer{
 
 img{
     width: auto;
-    height: 4in;
+    height: 60%;
+    overflow-x: auto;
     position: sticky;
 }
 
 video{
     width: auto;
-    height:4in;
+    height:60%;
+    overflow-x: auto;
     position: relative;
 }
 
