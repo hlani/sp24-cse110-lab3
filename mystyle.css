@@ -1,0 +1,11 @@
+body {
+    background-color: hsla(9, 100%, 64%, 0.6);
+}
+
+.color-display-p3 {
+    background-color: color(display-p3 0.4 0.6 35%);
+}  
+
+#mixcolor{
+    background-color: color-mix(in srgb, #34c9eb 25%, white);
+}
