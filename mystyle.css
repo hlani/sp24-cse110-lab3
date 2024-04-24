@@ -105,9 +105,9 @@ img{
 }
 
 video{
-    max-width: auto;
+    max-width: 100%;
     height:auto;
-    position: relative;
+    position: static;
 }
 
 button{
