@@ -75,25 +75,17 @@ p {
 
 }
 
+.cc{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-areas: none;
+}
+
 
 #Topics{
-    display: grid;
     grid-template-columns: 1fr; /* Single column layout for mobile */
     gap: 10px; /* Space between grid items */
     padding: 10px;
-}
-@media (min-width: 768px) {
-    /* Two columns for tablet and larger devices */
-    #Topics {
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-@media (min-width: 1024px) {
-    /* Three columns for desktops */
-    #Topics {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
 }
 
 footer{
