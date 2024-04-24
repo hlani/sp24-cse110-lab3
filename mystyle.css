@@ -1,3 +1,6 @@
+html{
+    font-family:cursive;
+}
 :root{
     --main-bg-color: hsla(9, 100%, 64%, 0.6);
 }
