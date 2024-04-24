@@ -8,25 +8,46 @@ body {
 
 .color-display-p3 {
     background-color: color(display-p3 0.4 0.6 35%);
+    border: 2px solid #000000;
+    padding: 3mm;
 }  
 
 #mixcolor{
     background-color: color-mix(in srgb, #34c9eb 25%, white);
+    border-bottom: 2px solid #000000;
 }
 
 h1 {
     font-size: 5em;
-    margin-left: 5%;
-    margin-right: 5%; 
-    padding: 2vh; 
+    /* these are long margins syntax*/
+    margin-left: 0.5%;
+    margin-right:0.5%; 
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    padding: 2vh; /* short padding syntax*/
 }
 
 #Attendees {
-    padding: 5mm; 
+    /*long padding syntax*/
+    padding-top: 5mm;
+    padding-bottom:5mm;
+    padding-left: 5mm;
+    padding-right: 5mm; 
     font-size: 20px;
     background: burlywood;
-    margin-top: 0.5cm;
+    margin: 0.01cm; /* this is a short syntax*/
+    border: 2px solid #000000;
 }
+
+textarea {
+    /* border syntax style */
+    border-width: 1px;
+    border-style:dotted;
+    border-color: black;
+    border-radius: 0%;
+    width: 100%; 
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+  }
 
 
 
