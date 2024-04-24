@@ -25,7 +25,9 @@ h1 {
     margin-top: 0.5%;
     margin-bottom: 0.5%;
     padding: 2vh; /* short padding syntax*/
+    text-align: center;
 }
+
 
 #Attendees {
     /*long padding syntax*/
@@ -45,9 +47,52 @@ textarea {
     border-style:dotted;
     border-color: black;
     border-radius: 0%;
-    width: 100%; 
+    max-width: 100%; 
+    min-width: none;
     box-sizing: border-box; /* Include padding and border in the element's total width */
-  }
+}
 
+label {
+    display: inline;
+    text-decoration: underline;
+    padding-bottom: 10%;
 
+}
 
+/*changes the color of text */
+p {
+    color: brown;
+    background-color: white;
+}
+
+fieldset{
+    display: flex;
+}
+
+footer{
+    text-align: center;
+}
+
+img{
+    width: 8in;
+    height: 4in;
+    position: sticky;
+}
+
+video{
+    width: 8in;
+    height:4in;
+    position: relative;
+}
+
+button{
+    color:red;
+}
+
+button:hover {
+    color: green;
+}
+
+button:active{
+    color:yellow;
+}
