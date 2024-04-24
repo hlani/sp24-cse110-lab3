@@ -87,13 +87,13 @@ footer{
 }
 
 img{
-    width: 8in;
+    width: auto;
     height: 4in;
     position: sticky;
 }
 
 video{
-    width: 8in;
+    width: auto;
     height:4in;
     position: relative;
 }
