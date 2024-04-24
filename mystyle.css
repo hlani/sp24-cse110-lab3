@@ -10,7 +10,7 @@ body {
 }
 
 .color-display-p3 {
-    background-color: color(display-p3 0.4 0.6 35%);
+    background-color: color(display-p3 0.4 0.6 0.35);
     border: 2px solid #000000;
     padding: 3mm;
 }  
@@ -74,7 +74,6 @@ textarea {
     border-color: black;
     border-radius: 0%;
     max-width: 100%; 
-    min-width: none;
     box-sizing: border-box; /* Include padding and border in the element's total width */
 }
 
