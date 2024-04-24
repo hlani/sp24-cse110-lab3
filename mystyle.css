@@ -65,8 +65,18 @@ p {
     background-color: white;
 }
 
-fieldset{
+.favpower{
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#Topics{
+    display: grid;
+    grid-auto-rows: auto;
+    gap: 5px;
+
 }
 
 footer{
