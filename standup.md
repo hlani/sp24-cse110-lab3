@@ -6,27 +6,27 @@
 -
 -
 
-### Friday <date>
+### Friday - [date]
 Name | Priorities | Progress | Problem 
 ---- | ---- | ---- | ----
 add a users profile | e.g. brainstorming, budget ideas, e.t.c. | e.g. waiting on final input for project | any issues that arised
 
-### Thursday <date>
+### Thursday - [date]
 Name | Priorities | Progress | Problem 
 ---- | ---- | ---- | ----
 add a users profile | e.g. brainstorming, budget ideas, e.t.c. | e.g. waiting on final input for project | any issues that arised
 
-### Wednesday <date>
+### Wednesday - [date]
 Name | Priorities | Progress | Problem 
 ---- | ---- | ---- | ----
 add a users profile | e.g. brainstorming, budget ideas, e.t.c. | e.g. waiting on final input for project | any issues that arised
 
-### Tuesday <date>
+### Tuesday - [date]
 Name | Priorities | Progress | Problem 
 ---- | ---- | ---- | ----
 add a users profile | e.g. brainstorming, budget ideas, e.t.c. | e.g. waiting on final input for project | any issues that arised
 
-### Monday <date>
+### Monday - [date]
 Name | Priorities | Progress | Problem 
 ---- | ---- | ---- | ----
 add a users profile | e.g. brainstorming, budget ideas, e.t.c. | e.g. waiting on final input for project | any issues that arised
