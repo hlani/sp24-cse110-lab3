@@ -47,7 +47,8 @@ textarea {
     border-style:dotted;
     border-color: black;
     border-radius: 0%;
-    width: 100%; 
+    max-width: 100%; 
+    min-width: none;
     box-sizing: border-box; /* Include padding and border in the element's total width */
 }
 
@@ -70,4 +71,16 @@ fieldset{
 
 footer{
     text-align: center;
+}
+
+img{
+    width: 8in;
+    height: 4in;
+    position: sticky;
+}
+
+video{
+    width: 8in;
+    height:4in;
+    position: relative;
 }
